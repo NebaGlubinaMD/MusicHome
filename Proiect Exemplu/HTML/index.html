@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/JS/script_asteptare_audio.js"></script>
+    <link rel="stylesheet" href="/CSS/Stiluri/style.css">
+    <link rel="icon" href="/CSS/Imagini/iconmusic.jpg">
+
+
+</head>
+<body>
+    
+    <div id="centr_principala">
+        <h1 id="titlu">Music Home</h1>
+    </div>
+        
+    <!-- Centrare carduri  -->
+    <div id="centrarebox"> 
+<!-- Aranjarea cardurilor dupa id si adaugarea Imaginii, Denumirea, Autor, Cantecul MP3 -->
+        <div class="card">
+
+            <img class="redactimag" src="/CSS/Imagini/52.png" alt="52 & HAUNTED">
+            <p class="denum"><strong>52 & HAUNTED</strong></p>
+            <p class="autor"><i>ALBLAK 52, kizaru</i></p>
+            
+            <audio class="audio-player">
+                <source src="/CSS/Audio/52.mp3" type="audio/mp3">
+            </audio>
+                <button class="play" onclick="playSong('/CSS/Audio/52.mp3')">PLAY</button>
+        
+        </div>
+
+        <div class="card">
+            
+            <img class="redactimag" src="/CSS/Imagini/Type.png" alt="Type Shit">
+                <p class="denum"><strong>Type Shit</strong></p>
+                    <p class="autor"><i>Future, Metro Boomin, Travis Scott, Playboi Carti</i></p>
+            
+            <audio class="audio-player">
+                <source src="/CSS/Audio/Type.mp3" type="audio/mp3">
+            </audio>
+                <button class="play" onclick="playSong('/CSS/Audio/Type.mp3')">PLAY</button>
+
+        </div>
+
+        <div class="card">
+            
+            <img class="redactimag" src="/CSS/Imagini/Dont.jpg" alt="Don't Wanna Breathe">
+            <p class="denum"><strong>Don't Wanna Breathe</strong></p>
+            <p class="autor"><i>Kodak Black</i></p>
+            
+            <audio class="audio-player">
+                <source src="/CSS/Audio/Dont.mp3" type="audio/mp3">
+            </audio>
+                <button class="play" onclick="playSong('/CSS/Audio/Dont.mp3')">PLAY</button>
+
+
+        </div>
+
+        
+    </div>
+
+
+
+
+</body>
+
+
+
+</html>
